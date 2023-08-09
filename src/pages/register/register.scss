@@ -1,0 +1,87 @@
+.register{
+    height: 100vh;
+    background-color: rgb(193, 190, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+        .card{
+            width: 50%;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: row-reverse;
+            background-color: rgb(235, 235, 223);
+            min-height: 600px;
+            overflow: hidden;
+            .left{
+                flex: 1;
+                background:linear-gradient(to bottom, #8e3bb5d0, #9449c07a, #9c56cb78, #a263d582, #aa70e05b), url("https://images.pexels.com/photos/3184423/pexels-photo-3184423.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") center;
+                background-size: cover;
+                padding: 50px;
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                color: rgb(53, 52, 52);
+    
+                h1{
+                    
+                    font-size: 88px;
+                    line-height: 88px;
+                }
+                p{
+                    color: rgb(233, 227, 227);
+                }
+                span{
+                    font-size: 14px;
+                    color: black;
+                }
+                button{
+                    border-radius: 5px;
+                    width: 50%;
+                    padding: 10px;
+                    border: none;
+                    background-color: white;
+                    color: rgb(37, 59, 160);
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+            }
+    
+            .right{
+                flex: 1;
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                justify-content: center;
+                
+                h1{
+                    padding: 10px;
+                    color: #555;
+                }
+                form{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 40px;
+                
+                    input{
+                        background-color:rgb(235, 235, 223) ;
+                        border: none;
+                        border-bottom: 1px solid lightgray;
+                        padding: 20px 10px;
+                    }
+                    button{
+                        border-radius: 5px;
+                        width: 50%;
+                        padding: 10px;
+                        border: none;
+                        background-color: #62b3db;
+                        color: #575492;
+                        font-weight: bold;
+                        cursor: pointer;
+    
+                    }
+                }
+            }
+        }
+    }
